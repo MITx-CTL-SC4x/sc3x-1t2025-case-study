@@ -809,7 +809,7 @@ def main(config):
         PHASE_DICT = PHASES[PHASE_NAME]
         fields = PHASE_DICT["fields"]
 
-        st.write(f"* {PHASE_DICT['name']} *")
+        st.write(f"** {PHASE_DICT['name']} **")
 
         build_field(PHASE_NAME, fields, user_input, PHASES, SYSTEM_PROMPT)
 
