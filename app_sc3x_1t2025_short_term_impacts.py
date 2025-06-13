@@ -55,7 +55,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1select": { # TOPIC 1
-        "name": "Choose Topic",
+        "name": "Choose a Topic to Discuss",
         "fields": {
             "topic": {
                 "type": "selectbox",
@@ -76,7 +76,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow1": {
-        "name": "What do you think?",
+        "name": "Topic 1, First Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -97,7 +97,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow2": {
-        "name": "What do you think?",
+        "name": "Topic 1, Second Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -118,7 +118,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow3": {
-        "name": "What do you think?",
+        "name": "Topic 1, Third Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -139,7 +139,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2select": { # TOPIC 2
-        "name": "Choose Topic",
+        "name": "Choose a Second Topic",
         "fields": {
             "topic": {
                 "type": "selectbox",
@@ -160,7 +160,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow1": {
-        "name": "What do you think?",
+        "name": "Topic 2, First Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -181,7 +181,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow2": {
-        "name": "What do you think?",
+        "name": "Topic 2, Second Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -202,7 +202,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow3": {
-        "name": "What do you think?",
+        "name": "Topic 2, Third Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -223,7 +223,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic3select": { # TOPIC 3
-        "name": "Choose Topic",
+        "name": "Choose a Third Topic",
         "fields": {
             "topic": {
                 "type": "selectbox",
@@ -244,7 +244,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic3follow1": {
-        "name": "What do you think?",
+        "name": "Topic 3, First Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -265,7 +265,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic3follow2": {
-        "name": "What do you think?",
+        "name": "Topic 3, Second Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -286,7 +286,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic3follow3": {
-        "name": "What do you think?",
+        "name": "Topic 3, Third Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -307,7 +307,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic4select": { # TOPIC 4
-        "name": "Choose Topic",
+        "name": "Choose the Last Topic",
         "fields": {
             "topic": {
                 "type": "selectbox",
@@ -328,7 +328,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic4follow1": {
-        "name": "What do you think?",
+        "name": "Topic 4, First Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -349,7 +349,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic4follow2": {
-        "name": "What do you think?",
+        "name": "Topic 4, Second Question",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -370,7 +370,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic4follow3": {
-        "name": "What do you think?",
+        "name": "Topic 4, Third Question",
         "fields": {
             "position": {
                 "type": "text_area",
