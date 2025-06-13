@@ -311,7 +311,7 @@ def format_user_prompt(prompt, user_input, phase_name=None, phases=None):
         # Get field types from phase configuration
         if phase_name and phases and phase_name in phases:
             field_types = {
-                field_key: field_config.get('key') # CHECK_THIS
+                field_key: field_config.get('type')
                 for field_key, field_config in phases[phase_name]['fields'].items()
             }
         
@@ -809,7 +809,7 @@ def main(config):
         PHASE_DICT = PHASES[PHASE_NAME]
         fields = PHASE_DICT["fields"]
 
-        st.write(f"##### {PHASE_DICT['name']}")
+        st.write(f"* {PHASE_DICT['name']} *")
 
         build_field(PHASE_NAME, fields, user_input, PHASES, SYSTEM_PROMPT)
 

@@ -34,12 +34,12 @@ This case study allows students to explore import/export implications, cost mana
 
 PHASES = {
     "name": {
-        "name": "Your Name",
+        "name": "What is your first name?",
         "fields": {
             "name": {
                 "type": "text_input",
                 "key": "name",
-                "label": """What is your first name?""",
+                #"label": """What is your first name?""",
                 "value": "",
             }
         },
@@ -61,7 +61,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic1select",
-                "label": "Choose a topic",
+                #"label": "Choose a topic",
                 #"type": "text_input",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
@@ -78,13 +78,13 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow1": {
-        "name": "Topic 1, First Question",
+        "name": "Topic 1 Discussion",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic1follow1",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                #"label": """Respond to the comments above""",
                 "value": """ topic1follow1 """,
             }
         },
