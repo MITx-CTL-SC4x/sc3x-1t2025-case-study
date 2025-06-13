@@ -776,8 +776,8 @@ def main(config):
     if 'CURRENT_PHASE' not in st.session_state:
         st.session_state['CURRENT_PHASE'] = 0
 
-    st.title(APP_TITLE)
-    st.markdown(APP_INTRO)
+    #st.title(APP_TITLE)
+    #st.markdown(APP_INTRO)
 
     # Optionally show "How it Works" section
     if APP_HOW_IT_WORKS:
@@ -809,7 +809,7 @@ def main(config):
         PHASE_DICT = PHASES[PHASE_NAME]
         fields = PHASE_DICT["fields"]
 
-        st.write(f"#### Phase {i + 1}: {PHASE_DICT['name']}")
+        st.write(f"####{PHASE_DICT['name']}")
 
         build_field(PHASE_NAME, fields, user_input, PHASES, SYSTEM_PROMPT)
 
