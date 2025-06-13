@@ -38,6 +38,7 @@ PHASES = {
         "fields": {
             "name": {
                 "type": "text_input",
+                "key": "name",
                 "label": """What is your first name?""",
                 "value": "",
             }
@@ -59,6 +60,7 @@ PHASES = {
         "fields": {
             "topic": {
                 "type": "selectbox",
+                "key": "topic1select",
                 "label": "Choose a topic",
                 #"type": "text_input",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
@@ -80,7 +82,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic1follow1",
+                "key": "topic1follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -102,7 +104,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic1follow2",
+                "key": "topic1follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -124,7 +126,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic1follow3",
+                "key": "topic1follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -146,6 +148,7 @@ PHASES = {
         "fields": {
             "topic": {
                 "type": "selectbox",
+                "key": "topic2select",
                 "label": "Choose a topic you have not already discussed",
                 #"type": "text_input",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
@@ -167,7 +170,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic2follow1",
+                "key": "topic2follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -189,7 +192,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic2follow2",
+                "key": "topic2follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -211,7 +214,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic2follow3",
+                "key": "topic2follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -233,6 +236,7 @@ PHASES = {
         "fields": {
             "topic": {
                 "type": "selectbox",
+                "key": "topic3select",
                 "label": "Choose a topic you have not already discussed",
                 #"type": "text_input",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
@@ -254,7 +258,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic3follow1",
+                "key": "topic3follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -276,7 +280,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic3follow2",
+                "key": "topic3follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -298,7 +302,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic3follow3",
+                "key": "topic3follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -320,6 +324,7 @@ PHASES = {
         "fields": {
             "topic": {
                 "type": "selectbox",
+                "key": "topic4select",
                 "label": "Choose a topic you have not already discussed",
                 #"type": "text_input",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
@@ -341,7 +346,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic4follow1",
+                "key": "topic4follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -363,7 +368,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic4follow2",
+                "key": "topic4follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -385,7 +390,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"topic4follow3",
+                "key": "topic4follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
                 "value": """ """,
@@ -407,7 +412,7 @@ PHASES = {
         "fields": {
             "position": {
                 "type": "text_area",
-                "key":"plan",
+                "key": "plan",
                 "height": 300,
                 "label": """Please describe your mitigation plan""",
                 "value": """ """,

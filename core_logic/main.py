@@ -311,7 +311,7 @@ def format_user_prompt(prompt, user_input, phase_name=None, phases=None):
         # Get field types from phase configuration
         if phase_name and phases and phase_name in phases:
             field_types = {
-                field_key: field_config.get('type')
+                field_key: field_config.get('key') # CHECK_THIS
                 for field_key, field_config in phases[phase_name]['fields'].items()
             }
         
