@@ -61,7 +61,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic1select",
-                "label": "Choose a topic",
+                "label": "Choose a topic to discuss first:",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -84,7 +84,7 @@ PHASES = {
                 "key": "topic1follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic1follow1 """,
+                "value": """ respond_to_topic_1_first_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -106,7 +106,7 @@ PHASES = {
                 "key": "topic1follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic1follow2 """,
+                "value": """ respond_to_topic_1_second_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -128,7 +128,7 @@ PHASES = {
                 "key": "topic1follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic1follow3 """,
+                "value": """ respond_to_topic_1_third_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -148,8 +148,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic2select",
-                "label": "Choose a topic you have not already discussed",
-                #"type": "text_input",
+                "label": "Choose a new topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -172,7 +171,7 @@ PHASES = {
                 "key": "topic2follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic2follow1 """,
+                "value": """ respond_to_topic_2_first_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -194,7 +193,7 @@ PHASES = {
                 "key": "topic2follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic2follow2 """,
+                "value": """ respond_to_topic_2_second_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -216,7 +215,7 @@ PHASES = {
                 "key": "topic2follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic2follow3 """,
+                "value": """ respond_to_topic_2_third_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -236,8 +235,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic3select",
-                "label": "Choose a topic you have not already discussed",
-                #"type": "text_input",
+                "label": "Choose another topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -260,7 +258,7 @@ PHASES = {
                 "key": "topic3follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic3follow1 """,
+                "value": """ respond_to_topic_3_first_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -282,7 +280,7 @@ PHASES = {
                 "key": "topic3follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic3follow2 """,
+                "value": """ respond_to_topic_3_second_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -304,7 +302,7 @@ PHASES = {
                 "key": "topic3follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic3follow3 """,
+                "value": """ respond_to_topic_3_third_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -324,8 +322,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic4select",
-                "label": "Choose a topic you have not already discussed",
-                #"type": "text_input",
+                "label": "Choose the last topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -348,7 +345,7 @@ PHASES = {
                 "key": "topic4follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic4follow1 """,
+                "value": """ respond_to_topic_4_first_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -370,7 +367,7 @@ PHASES = {
                 "key": "topic4follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic4follow2 """,
+                "value": """ respond_to_topic_4_second_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -392,7 +389,7 @@ PHASES = {
                 "key": "topic4follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ topic4follow3 """,
+                "value": """ respond_to_topic_4_third_question_here """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking them to summarize their short-term mitigation plan in a concise, executive-ready response.",
@@ -414,7 +411,7 @@ PHASES = {
                 "key": "plan",
                 "height": 300,
                 "label": """Please describe your mitigation plan""",
-                "value": """ plan """,
+                "value": """ describe_migitation_plan_here """,
             }
         },
         "phase_instructions": "The user will respond with a summary of their short-term mitigation plan. It should be concise and executive-ready. Provide brief constructive feedback on their plan. Finish by thanking them for the discussion.",
