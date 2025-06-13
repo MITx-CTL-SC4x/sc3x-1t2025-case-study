@@ -85,7 +85,7 @@ PHASES = {
                 "key": "topic1follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic1follow1 """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -107,7 +107,7 @@ PHASES = {
                 "key": "topic1follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic1follow2 """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -129,7 +129,7 @@ PHASES = {
                 "key": "topic1follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic1follow3 """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -173,7 +173,7 @@ PHASES = {
                 "key": "topic2follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic2follow1 """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -195,7 +195,7 @@ PHASES = {
                 "key": "topic2follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic2follow2 """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -217,7 +217,7 @@ PHASES = {
                 "key": "topic2follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic2follow3 """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -261,7 +261,7 @@ PHASES = {
                 "key": "topic3follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic3follow1 """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -283,7 +283,7 @@ PHASES = {
                 "key": "topic3follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic3follow2 """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -305,7 +305,7 @@ PHASES = {
                 "key": "topic3follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic3follow3 """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -349,7 +349,7 @@ PHASES = {
                 "key": "topic4follow1",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic4follow1 """,
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -371,7 +371,7 @@ PHASES = {
                 "key": "topic4follow2",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic4follow2 """,
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas.",
@@ -393,7 +393,7 @@ PHASES = {
                 "key": "topic4follow3",
                 "height": 300,
                 "label": """Respond to the comments above""",
-                "value": """ """,
+                "value": """ topic4follow3 """,
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking them to summarize their short-term mitigation plan in a concise, executive-ready response.",
@@ -415,7 +415,7 @@ PHASES = {
                 "key": "plan",
                 "height": 300,
                 "label": """Please describe your mitigation plan""",
-                "value": """ """,
+                "value": """ plan """,
             }
         },
         "phase_instructions": "The user will respond with a summary of their short-term mitigation plan. It should be concise and executive-ready. Provide brief constructive feedback on their plan. Finish by thanking them for the discussion.",
@@ -428,7 +428,7 @@ PHASES = {
         "allow_skip": False,
         "show_prompt": False,
         "read_only_prompt": False
-    },
+    }
 
 }
 
