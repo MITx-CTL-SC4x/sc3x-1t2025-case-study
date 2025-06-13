@@ -61,7 +61,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic1select",
-                "label": "Choose a topic to discuss first:",
+                "label": "Topic 1: Choose a topic to discuss first",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -77,7 +77,7 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow1": {
-        "name": "Respond to the comments above",
+        "name": "Topic 1: Respond to the comments above",
         "fields": {
             "position": {
                 "type": "text_area",
@@ -105,7 +105,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic1follow2",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 1: Respond to the comments above""",
                 "value": """ respond_to_topic_1_second_question_here """,
             }
         },
@@ -127,7 +127,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic1follow3",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 1: Respond to the comments above""",
                 "value": """ respond_to_topic_1_third_question_here """,
             }
         },
@@ -148,7 +148,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic2select",
-                "label": "Choose a new topic you have not already discussed",
+                "label": "Topic 2: Choose a new topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -170,7 +170,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic2follow1",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 2: Respond to the comments above""",
                 "value": """ respond_to_topic_2_first_question_here """,
             }
         },
@@ -192,7 +192,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic2follow2",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 2: Respond to the comments above""",
                 "value": """ respond_to_topic_2_second_question_here """,
             }
         },
@@ -214,7 +214,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic2follow3",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 2: Respond to the comments above""",
                 "value": """ respond_to_topic_2_third_question_here """,
             }
         },
@@ -235,7 +235,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic3select",
-                "label": "Choose another topic you have not already discussed",
+                "label": "Topic 3: Choose another topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -257,7 +257,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic3follow1",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 3: Respond to the comments above""",
                 "value": """ respond_to_topic_3_first_question_here """,
             }
         },
@@ -279,7 +279,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic3follow2",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 3: Respond to the comments above""",
                 "value": """ respond_to_topic_3_second_question_here """,
             }
         },
@@ -301,7 +301,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic3follow3",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 3: Respond to the comments above""",
                 "value": """ respond_to_topic_3_third_question_here """,
             }
         },
@@ -322,7 +322,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic4select",
-                "label": "Choose the last topic you have not already discussed",
+                "label": "Topic 4: Choose the last topic you have not already discussed",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -344,7 +344,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic4follow1",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 4: Respond to the comments above""",
                 "value": """ respond_to_topic_4_first_question_here """,
             }
         },
@@ -366,7 +366,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic4follow2",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 4: Respond to the comments above""",
                 "value": """ respond_to_topic_4_second_question_here """,
             }
         },
@@ -388,7 +388,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic4follow3",
                 "height": 300,
-                "label": """Respond to the comments above""",
+                "label": """Topic 4: Respond to the comments above""",
                 "value": """ respond_to_topic_4_third_question_here """,
             }
         },
