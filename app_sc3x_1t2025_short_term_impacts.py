@@ -27,6 +27,7 @@ Strategic Manufacturing Shifts: Mattel aims to cut Chinese production below 40 p
 Global Trade Uncertainty: Future tariff policies could further disrupt sourcing strategies, requiring continuous adaptation.
 Consumer Behavior Changes: Higher prices may shift demand toward alternative brands or second-hand markets.
 This case study allows students to explore import/export implications, cost management, and strategic responses to trade policies. 
+Do not mention Mattel or the toy industry explicitly, as they were mentioned for ilustrative purposes only.
 """
 
 PHASES = {
@@ -62,7 +63,7 @@ PHASES = {
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
-        "phase_instructions": "Once they choose a topic, ask an open-ended question focused on that topic. Gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Keep track which topics have been completed.",
+        "phase_instructions": "Once they choose a topic, ask a short open-ended question focused on that topic. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Keep track which topics have been completed.",
         "user_prompt": "{topic}",
         "ai_response": True,
         "no_submission": False,
