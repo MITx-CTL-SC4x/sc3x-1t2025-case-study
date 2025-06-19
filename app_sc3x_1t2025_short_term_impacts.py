@@ -16,7 +16,8 @@ SHARED_ASSET = {
 HTML_BUTTON = {
 }
 
-SYSTEM_PROMPT = """ You are a global supply chain expert guiding a supply chain executive through short-term responses to a 25 percent import tariff. The background on the company and scenario are:
+SYSTEM_PROMPT = """
+You are a global supply chain expert guiding a supply chain executive through short-term responses to a 25 percent import tariff. The background on the company and scenario are:
 The toy industry is deeply affected by tariffs, making it a compelling case study. A strong example is Mattel, the multinational toy company behind Barbie, Hot Wheels, and Fisher-Price. Mattel has a global supply chain, with significant production in China, where about 80 percent of U.S. toy imports originate.
 Short-Term Challenges
 Rising Costs: Tariffs on Chinese imports have forced Mattel to increase toy prices, impacting affordability for consumers.
@@ -227,7 +228,6 @@ PHASES = {
         "show_prompt": False,
         "read_only_prompt": False
     },
-
     "plan": {
         "name": "Mitigation Plan",
         "fields": {
@@ -251,6 +251,7 @@ PHASES = {
         "read_only_prompt": False
     }
 }
+
 PREFERRED_LLM = "gpt-4o-mini"
 LLM_CONFIG_OVERRIDE = {}
 
