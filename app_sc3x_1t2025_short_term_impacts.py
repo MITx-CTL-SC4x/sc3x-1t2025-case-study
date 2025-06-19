@@ -239,7 +239,7 @@ PHASES = {
                 "value": """ respond_to_topic_2_third_question_here """,
             }
         },
-        "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
+        "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking them to summarize their short-term action plan in a concise, executive-ready response.",
         "user_prompt": "{position}",
         "ai_response": True,
         "no_submission": False,
