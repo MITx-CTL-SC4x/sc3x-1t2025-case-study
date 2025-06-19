@@ -6,7 +6,7 @@ See `template_apps/README.md` for instructions and links to documentation and ot
 
 ## To Do
 
-Add basic instructions.
+Add basic instructions for this app.
 
 ## Credit
 
