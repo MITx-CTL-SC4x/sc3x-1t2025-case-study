@@ -265,7 +265,7 @@ RAG_IMPLEMENTATION = False # make true only when document exists
 SOURCE_DOCUMENT = "sample.pdf" # file uploaded in source_docs if only
 
 PAGE_CONFIG = {
-    "page_title": "SC3x 1T2025, Case Study, Short Debate",
+    "page_title": "SC3x 1T2025, Case Study, Short-term Impact Discussion",
     #"page_icon": "🗣️️",
     "layout": "centered",
     #"initial_sidebar_state": "expanded"
