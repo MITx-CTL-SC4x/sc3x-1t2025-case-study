@@ -64,7 +64,7 @@ PHASES = {
                 "value": "",
             }
         },
-        "phase_instructions": "The user will provide you their name. In one sentence only, welcome them by name and end your statement with 'Let's discuss responses to the short-term impacts of a 25 percent tariff.'",
+        "phase_instructions": "The user will provide you their name. In one sentence only, welcome them by name and end your statement with 'Let's discuss responses to the short-term impacts of a 25 percent tariff.' Then invite them to choose one of the four topics to discuss.",
         "user_prompt": "My name is {name}",
         "ai_response": True,
         "scored_phase": False,
