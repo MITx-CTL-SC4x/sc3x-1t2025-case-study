@@ -213,7 +213,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic2follow2",
                 "height": 300,
-                "label": """Response""",
+                "label": """Response:""",
                 "value": """Please share your thoughts on the discussion above""",
             }
         },
@@ -235,7 +235,7 @@ PHASES = {
                 "type": "text_area",
                 "key": "topic2follow3",
                 "height": 300,
-                "label": """Response""",
+                "label": """Response:""",
                 "value": """Please respond considering the feedback above""",
             }
         },
