@@ -82,7 +82,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic1select",
-                "label": "Topic 1: Choose a topic to discuss first",
+                "label": "Choose the first topic to discuss:",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -98,14 +98,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow1": {
-        "name": "Topic 1: Respond to the comments above",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic1follow1",
                 "height": 300,
-                "label": """Topic 1: Respond to the comments above""",
-                "value": """ respond_to_topic_1_first_question_here """,
+                "label": """Response:""",
+                "value": """What are your initial thoughts on the topic?""",
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas. Provide context for the new question by building on the example you previous introduced for the topic.",
@@ -120,14 +120,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow2": {
-        "name": "Topic 1, Second Question",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic1follow2",
                 "height": 300,
-                "label": """Topic 1: Respond to the comments above""",
-                "value": """ respond_to_topic_1_second_question_here """,
+                "label": """Response:""",
+                "value": """Please share your thoughts on the feedback above""",
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas. Provide context for the new question by building on the example you previous introduced for the topic.",
@@ -142,14 +142,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic1follow3": {
-        "name": "Topic 1, Third Question",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic1follow3",
                 "height": 300,
-                "label": """Topic 1: Respond to the comments above""",
-                "value": """ respond_to_topic_1_third_question_here """,
+                "label": """Response:""",
+                "value": """Please respond considering the discussion above""",
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by suggesting they choose a new topic they have not discussed yet.",
@@ -169,7 +169,7 @@ PHASES = {
             "topic": {
                 "type": "selectbox",
                 "key": "topic2select",
-                "label": "Topic 2: Choose a new topic you have not already discussed",
+                "label": "Choose a new topic you have not already discussed:",
                 "options": ['Inventory - Should we build buffer stock or reduce exposure?', 'Logistics - Are there alternatives to speed or reroute shipments?', 'Suppliers - Should we shift or renegotiate sourcing in the near term?', 'Customers - How should we handle pricing and communication?']
             }
         },
@@ -185,14 +185,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow1": {
-        "name": "Topic 2, First Question",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic2follow1",
                 "height": 300,
-                "label": """Topic 2: Respond to the comments above""",
-                "value": """ respond_to_topic_2_first_question_here """,
+                "label": """Response:""",
+                "value": """What are your initial thoughts on the new topic?""",
             }
         },
         "phase_instructions": "The user will respond to the open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a second open-ended question on the topic that builds on the previous discussion but explores new ideas. Provide context for the new question by building on the example you previous introduced for the topic.",
@@ -207,14 +207,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow2": {
-        "name": "Topic 2, Second Question",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic2follow2",
                 "height": 300,
-                "label": """Topic 2: Respond to the comments above""",
-                "value": """ respond_to_topic_2_second_question_here """,
+                "label": """Response""",
+                "value": """Please share your thoughts on the discussion above""",
             }
         },
         "phase_instructions": "The user will respond to the second open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking a third open-ended question on the topic that builds on the previous discussion but explores new ideas. Provide context for the new question by building on the example you previous introduced for the topic.",
@@ -229,14 +229,14 @@ PHASES = {
         "read_only_prompt": False
     },
     "topic2follow3": {
-        "name": "Topic 2, Third Question",
+        "name": "Response",
         "fields": {
             "position": {
                 "type": "text_area",
                 "key": "topic2follow3",
                 "height": 300,
-                "label": """Topic 2: Respond to the comments above""",
-                "value": """ respond_to_topic_2_third_question_here """,
+                "label": """Response""",
+                "value": """Please respond considering the feedback above""",
             }
         },
         "phase_instructions": "The user will respond to the third open-ended question you presented to them. Respond to their response by gently challenge their thinking. Avoid long-term strategy and stay focused on immediate risks, trade-offs, and possible mitigation actions. Finish by asking them to summarize their short-term action plan in a concise, executive-ready response.",
@@ -257,8 +257,8 @@ PHASES = {
                 "type": "text_area",
                 "key": "plan",
                 "height": 300,
-                "label": """Please describe your mitigation plan""",
-                "value": """ describe_migitation_plan_here """,
+                "label": """Mitigation plan:""",
+                "value": """Please describe your mitigation plan""",
             }
         },
         "phase_instructions": "The user will respond with a summary of their short-term mitigation plan. It should be concise and executive-ready. Provide brief constructive feedback on their plan. Finish by thanking them for the discussion.",
